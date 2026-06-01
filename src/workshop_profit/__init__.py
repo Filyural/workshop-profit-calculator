@@ -1,3 +1,3 @@
-from .materials import Material, MaterialUsage
+from .materials import Material, MaterialUsage, MaterialUnit
 
 # __all__ = ['Material']
