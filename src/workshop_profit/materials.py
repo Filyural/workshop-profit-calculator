@@ -37,7 +37,3 @@ class MaterialUsage:
     @property
     def cost(self) -> float:
         return self.quantity * self.material.price_per_unit
-
-
-if __name__ == "__main__":
-    print(Material("Carbon", 10.0, MaterialUnit.SQUARE_METER))
